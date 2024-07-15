@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              href="#"
+              class="nav-link top1 text-light"
+              style="--i: 1"
+              class="active"
+              >Home</a
+            >
+            <a href="#about" class="nav-link top1 text-light" style="--i: 2"
+              >About</a
+            >
+            <a href="#skills" class="nav-link top1 text-light" style="--i: 3"
+              >Skills</a
+            >
+            <a href="#services" class="nav-link top1 text-light" style="--i: 5"
+              >Services</a
+            >
+            <a href="#portfolio" class="nav-link top1 text-light" style="--i: 4"
+              >Projects</a
+            >
+            <a href="#contact" class="nav-link top1 text-light" style="--i: 5"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Araoye Emmanuel</h1>
+        <h3>And I'm a <span id="element"></span></h3>
+        <p>
+          with extensive experience for over 2 years.
+          <br />
+          expertise is to create Fullstack web application with Javascript.
+        </p>
+        <div class="home-sci">
+          <a href="#" style="--i: 6"><i class="bx bxl-facebook"></i></a>
+          <a href="#" style="--i: 7"><i class="bx bxl-instagram"></i></a>
+          <a href="#" style="--i: 8"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#" style="--i: 9"><i class="bx bxl-tiktok"></i></a>
+        </div>
+        <a href="#" class="btn-box">More About Me</a>
+      </div>
+      <span class="home-imgHover"></span>
+    </section>
+    <section class="row g-3 justify-content-center m-2" id="about">
+      <div class="about-img col-lg-6 col-md-6">
+        <img src="images/myphoto.jpeg" />
+      </div>
+      <div class="about-text col-lg-6 col-md-6">
+        <h2>About <span>Me</span></h2>
+        <h4>Fullstack Developer</h4>
+        <p>
+          I am opened to learning, I have a great passion to explore new skills,
+          upgrade my knowledge base and make more experiences. From a student
+          having basic Knowledge about coding to being a postgraduate in CS, I
+          get excited about software development. Mostly I got my eyes on the
+          developmental zone and domain like cloud computing is also comes under
+          my area of interest. I love coding, music and critical thinking.
+        </p>
+        <a href="#" class="btn-box">More About Me</a>
+      </div>
+    </section>
+    <section class="services mx-2">
+      <div class="services" id="services">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list row g-3 my-0 mx-auto justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <i class="bx bx-code" style="color: #00eeff"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              I am a webpage designer with over three years of professional
+              experience in creating dynamic, user-friendly webpages. I
+              specialize in designing visually appealing and intuitive user
+              interfaces, utilizing my expertise in HTML, CSS, JavaScript, and
+              modern web design libraries and frameworks such as React JS
+              Material UI and Bootstrap. My strong understanding of responsive
+              design and UX/UI best practices allows me to consistently create
+              high-quality web pages that enhance user engagement and
+              satisfaction.
+            </p>
+            <!-- <a href="#" class="read">Read More</a> -->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <i class="bx bx-crop" style="color: #00eeff"></i>
+            <h2>Backend</h2>
+            <p>
+              I have over three years experience in backend development using
+              Node JS. I am proficient in Express JS framework for building
+              robust API for web applications. My expertise includes deploying
+              and managing cloud-based solutions, ensuring scalability,
+              security, and efficiency. This experience has enhanced my ability
+              to integrate cloud technologies with web design projects,
+              providing comprehensive solutions that meet modern business needs.
+            </p>
+            <!-- <a href="#" class="read">Read More</a> -->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <i class="bx bx-crop" style="color: #00eeff"></i>
+            <h2>Database</h2>
+            <p>
+              I have over four years experience working with database such as
+              Maria DB and MongoDb. I often use Mongoose ODM to interact with
+              both atlas and compass ODM.
+            </p>
+            <!-- <a href="#" class="read">Read More</a> -->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <i class="bx bxl-apple" style="color: #00eeff"></i>
+            <h2>Competitive Programmer</h2>
+            <p>
+              I am actively enhancing my problem-solving skills by tackling Data
+              Structures and Algorithms (DSA) challenges and C Language. So far,
+              I have successfully solved over 50 DSA problems and continue to
+              dedicate time to improving my proficiency. This ongoing practice
+              sharpens my coding abilities and keeps me up-to-date with
+              efficient algorithms and data handling techniques, which I apply
+              to my web design and development.
+            </p>
+            <!-- <a href="#" class="read">Read More</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class="skills row g-3 my-0 mx-auto justify-content-center">
+      <div class="col-lg-6 col-md-6" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Technical-bars">
+          <div class="bar">
+            <i class="bx bxl-html5" style="color: #c95d2e"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progess-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-css3" style="color: #147bbc"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progess-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-javascript" style="color: #b0bc1e"></i>
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progess-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-react" style="color: #69bcbc"></i>
+            <div class="info">
+              <span>React JS</span>
+            </div>
+            <div class="progess-line react">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-nodejs" style="color: rgb(48, 202, 99)"></i>
+            <div class="info">
+              <span>Node JS</span>
+            </div>
+            <div class="progess-line nodejs">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-mongodb" style="color: rgb(0, 128, 0)"></i>
+            <div class="info">
+              <span>MongoDb</span>
+            </div>
+            <div class="progess-line mongodb">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i
+              class="bx bxl-c-plus-plus"
+              style="color: rgba(211, 211, 245, 0.551)"
+            ></i>
+            <div class="info">
+              <span>C</span>
+            </div>
+            <div class="progess-line cplus">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">65%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">TeamWork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div id="portfolio" id="project">
+        <div class="main-text" id="project">
+          <h2 class="mx-1">Latest <span>Project</span></h2>
+          <div class="row g-3 justify-content-center mx-2">
+            <div class="col-lg-4 col-md-6">
+              <a href="https://schoolserver-w84p.onrender.com" target="_blank">
+                <img src="images/schoolcool.jpeg" class="img-fluid" />
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="https://shopwell-bfau.onrender.com" target="_blank">
+                <img src="images/shopwell.jpeg" class="img-fluid" />
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="https://etechmg.netlify.app" target="_blank">
+                <img src="images/etechmg.jpeg" class="img-fluid" />
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="https://newlifemcq.netlify.app" target="_blank">
+                <img src="images/newlifemcq.jpeg" class="img-fluid" />
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <a href="https://wkup.netlify.app" target="_blank">
+                <img src="images/wkup.jpeg" class="img-fluid" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row g-3 justify-content-center mx-2" id="contact">
+      <div class="contact-text col-lg-6 col-md-6">
+        <h4>Lets Work Together</h4>
+        <p>
+          I'm always excited to connect with new people and explore potential
+          collaborations. Whether you have a question about my work, a project
+          idea, or just want to chat about web design, cloud computing, or data
+          structures and algorithms, I'd love to hear from you! You can reach
+          out to me via email, phone, or through my social media channels. Your
+          messages are important to me, and I strive to respond promptly.
+          Looking forward to connecting with you and discussing how we can work
+          together!
+        </p>
+        <div class="contact-list">
+          <li>
+            <i class="bx bxs-envelope" style="color: #00eeff"
+              >&nbsp;emmanuelaraoye794@gmail.com</i
+            >
+          </li>
+          <li>
+            <i class="bx bxs-phone" style="color: #00eeff"
+              >&nbsp;+234 8058983817</i
+            >
+          </li>
+        </div>
+        <div class="contact-icons">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-form col-lg-6 col-md-6">
+        <h2>Contact<span> Me</span></h2>
+        <form
+          action="https://public.herotofu.com/v1/c32fc740-42ef-11ef-9c40-81ddfd46a512"
+          method="post"
+          accept-charset="UTF-8"
+        >
+          <div class="mb-2">
+            <input
+            name="name"
+              type="text"
+              class="form-control w-100 bg-light"
+              placeholder="Please enter your name"
+              required
+            />
+          </div>
+          <div class="mb-2">
+            <input
+            name="email"
+              type="email"
+              class="form-control w-100 bg-light"
+              placeholder="Email address"
+              required
+            />
+          </div>
+          <div class="mb-2">
+            <input
+            name="subject"
+              type="text"
+              class="form-control w-100 bg-light"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="mb-2">
+            <textarea
+            name="message"
+              class="form-control w-100 bg-light"
+              rows="3"
+              placeholder="Your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-info w-100">Send</button>
+        </form>
+      </div>
+    </section>
+    <div class="last-text">
+      <p>Developer @ Araoye Emmanuel &copy; <span id="year"></span></p>
+    </div>
+    <a href="#" class="top"
+      ><i class="bx bx-up-arrow-alt" style="color: #000"></i
+    ></a>
+    <script src="main.js"></script>
+  </body>
+</html>
