@@ -7,3 +7,4 @@ var typed = new Typed('#element', {
 });
 
 document.querySelector('#year').innerText = new Date().getFullYear()
+document.querySelector('#yearOfExperience').innerText = new Date().getFullYear()-2021
